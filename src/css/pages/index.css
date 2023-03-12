@@ -1,0 +1,10 @@
+.index > .box {
+  font-weight: 400;
+}
+.index > .box > .product > img {
+  display: block;
+  width: 160px;
+  height: 240px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}

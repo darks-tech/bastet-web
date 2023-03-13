@@ -1,10 +1,24 @@
 .index > .box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 20px;
   font-weight: 400;
 }
 .index > .box > .product > img {
   display: block;
-  width: 160px;
-  height: 240px;
-  border-radius: 7px;
+  width: 100%;
+  height: 220px;
+  height: auto;
+  border-radius: 3px;
   margin-bottom: 10px;
+}
+.index > .box > .product > div {
+  font-weight: 600;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.index > .box > .product > p {
+  font-size: 14px;
 }

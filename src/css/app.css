@@ -2,9 +2,9 @@
   --color-amber: #ffa000;
   --color-red: #d32f2f;
   --color-gray: #757575;
-  --color-black: #121212;
+  --color-black: #101010;
 
-  --color-bg: #121212;
+  --color-bg: var(--color-black);
   --color-text: #fff;
   --color-second-text: var(--color-gray);
 }

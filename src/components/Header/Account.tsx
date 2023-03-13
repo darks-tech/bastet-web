@@ -11,8 +11,8 @@ export const Account = () => {
   return (
     <div className='account'>
       <input id='header-account' type='checkbox' />
-      <label htmlFor='header-account' onBlur={onBlur}>
-        <img src='/avatars/gow.png' alt='ava' />
+      <label htmlFor='header-account'>
+        <img  onFocus={onBlur} src='/avatars/gow.png' alt='ava' />
       </label>
 
       <div className='details'>
